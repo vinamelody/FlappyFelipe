@@ -67,6 +67,7 @@ class GameScene: SKScene {
         playerNode.position = CGPoint(x: size.width * 0.2, y: playableHeight * 0.4 + playableStart)
         playerNode.zPosition = Layer.player.rawValue
         worldNode.addChild(playerNode)
+        player.movementComponent.playableStart = playableStart
     }
     
     func updateForeground() {
@@ -91,5 +92,11 @@ class GameScene: SKScene {
         lastUpdateTimeInterval = currentTime
         
         updateForeground()
+        
+        player.update(deltaTime: deltaTime)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        player.movementComponent.applyImpulse(lastUpdateTimeInterval)
     }
 }
