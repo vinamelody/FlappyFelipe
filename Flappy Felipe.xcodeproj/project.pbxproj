@@ -13,6 +13,26 @@
 		6E48B3961F7B725D002BE7BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E48B3941F7B725D002BE7BA /* Main.storyboard */; };
 		6E48B3981F7B725D002BE7BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E48B3971F7B725D002BE7BA /* Assets.xcassets */; };
 		6E48B39B1F7B725D002BE7BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E48B3991F7B725D002BE7BA /* LaunchScreen.storyboard */; };
+		6EA4CF341F7E3B2D00E7C0C8 /* sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF1B1F7E3AE500E7C0C8 /* sprites.atlas */; };
+		6EA4CF351F7E3B3900E7C0C8 /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF201F7E3AE500E7C0C8 /* CGFloat+Extensions.swift */; };
+		6EA4CF361F7E3B3900E7C0C8 /* CGPoint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF211F7E3AE500E7C0C8 /* CGPoint+Extensions.swift */; };
+		6EA4CF371F7E3B3900E7C0C8 /* CGVector+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF221F7E3AE500E7C0C8 /* CGVector+Extensions.swift */; };
+		6EA4CF381F7E3B3900E7C0C8 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF231F7E3AE500E7C0C8 /* Int+Extensions.swift */; };
+		6EA4CF391F7E3B3900E7C0C8 /* SKAction+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF241F7E3AE500E7C0C8 /* SKAction+Extensions.swift */; };
+		6EA4CF3A1F7E3B3900E7C0C8 /* SKAction+SpecialEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF251F7E3AE500E7C0C8 /* SKAction+SpecialEffects.swift */; };
+		6EA4CF3B1F7E3B3900E7C0C8 /* SKColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF261F7E3AE500E7C0C8 /* SKColor+Extensions.swift */; };
+		6EA4CF3C1F7E3B3900E7C0C8 /* SKNode+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF271F7E3AE500E7C0C8 /* SKNode+Extensions.swift */; };
+		6EA4CF3D1F7E3B3900E7C0C8 /* SKTAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF281F7E3AE500E7C0C8 /* SKTAudio.swift */; };
+		6EA4CF3E1F7E3B3900E7C0C8 /* SKTEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF291F7E3AE500E7C0C8 /* SKTEffects.swift */; };
+		6EA4CF3F1F7E3B3900E7C0C8 /* SKTTimingFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF2A1F7E3AE500E7C0C8 /* SKTTimingFunctions.swift */; };
+		6EA4CF401F7E3B3900E7C0C8 /* Vector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EA4CF2B1F7E3AE500E7C0C8 /* Vector3.swift */; };
+		6EA4CF411F7E3B4100E7C0C8 /* coin.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF2D1F7E3AE500E7C0C8 /* coin.wav */; };
+		6EA4CF421F7E3B4100E7C0C8 /* ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF2E1F7E3AE500E7C0C8 /* ding.wav */; };
+		6EA4CF431F7E3B4100E7C0C8 /* falling.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF2F1F7E3AE500E7C0C8 /* falling.wav */; };
+		6EA4CF441F7E3B4100E7C0C8 /* flapping.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF301F7E3AE500E7C0C8 /* flapping.wav */; };
+		6EA4CF451F7E3B4100E7C0C8 /* hitGround.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF311F7E3AE500E7C0C8 /* hitGround.wav */; };
+		6EA4CF461F7E3B4100E7C0C8 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF321F7E3AE500E7C0C8 /* pop.wav */; };
+		6EA4CF471F7E3B4100E7C0C8 /* whack.wav in Resources */ = {isa = PBXBuildFile; fileRef = 6EA4CF331F7E3AE500E7C0C8 /* whack.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		6E48B3971F7B725D002BE7BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E48B39A1F7B725D002BE7BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E48B39C1F7B725D002BE7BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EA4CF1B1F7E3AE500E7C0C8 /* sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = sprites.atlas; sourceTree = "<group>"; };
+		6EA4CF201F7E3AE500E7C0C8 /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
+		6EA4CF211F7E3AE500E7C0C8 /* CGPoint+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extensions.swift"; sourceTree = "<group>"; };
+		6EA4CF221F7E3AE500E7C0C8 /* CGVector+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGVector+Extensions.swift"; sourceTree = "<group>"; };
+		6EA4CF231F7E3AE500E7C0C8 /* Int+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		6EA4CF241F7E3AE500E7C0C8 /* SKAction+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+Extensions.swift"; sourceTree = "<group>"; };
+		6EA4CF251F7E3AE500E7C0C8 /* SKAction+SpecialEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKAction+SpecialEffects.swift"; sourceTree = "<group>"; };
+		6EA4CF261F7E3AE500E7C0C8 /* SKColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKColor+Extensions.swift"; sourceTree = "<group>"; };
+		6EA4CF271F7E3AE500E7C0C8 /* SKNode+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+Extensions.swift"; sourceTree = "<group>"; };
+		6EA4CF281F7E3AE500E7C0C8 /* SKTAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTAudio.swift; sourceTree = "<group>"; };
+		6EA4CF291F7E3AE500E7C0C8 /* SKTEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTEffects.swift; sourceTree = "<group>"; };
+		6EA4CF2A1F7E3AE500E7C0C8 /* SKTTimingFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKTTimingFunctions.swift; sourceTree = "<group>"; };
+		6EA4CF2B1F7E3AE500E7C0C8 /* Vector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector3.swift; sourceTree = "<group>"; };
+		6EA4CF2D1F7E3AE500E7C0C8 /* coin.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = coin.wav; sourceTree = "<group>"; };
+		6EA4CF2E1F7E3AE500E7C0C8 /* ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ding.wav; sourceTree = "<group>"; };
+		6EA4CF2F1F7E3AE500E7C0C8 /* falling.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = falling.wav; sourceTree = "<group>"; };
+		6EA4CF301F7E3AE500E7C0C8 /* flapping.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = flapping.wav; sourceTree = "<group>"; };
+		6EA4CF311F7E3AE500E7C0C8 /* hitGround.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hitGround.wav; sourceTree = "<group>"; };
+		6EA4CF321F7E3AE500E7C0C8 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		6EA4CF331F7E3AE500E7C0C8 /* whack.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = whack.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 		6E48B3891F7B725D002BE7BA /* Flappy Felipe */ = {
 			isa = PBXGroup;
 			children = (
+				6EA4CF191F7E3AE500E7C0C8 /* Resources */,
 				6E48B38A1F7B725D002BE7BA /* AppDelegate.swift */,
 				6E48B3901F7B725D002BE7BA /* GameScene.swift */,
 				6E48B3921F7B725D002BE7BA /* GameViewController.swift */,
@@ -65,6 +106,57 @@
 				6E48B39C1F7B725D002BE7BA /* Info.plist */,
 			);
 			path = "Flappy Felipe";
+			sourceTree = "<group>";
+		};
+		6EA4CF191F7E3AE500E7C0C8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4CF1A1F7E3AE500E7C0C8 /* Artwork */,
+				6EA4CF1F1F7E3AE500E7C0C8 /* SKTUtils */,
+				6EA4CF2C1F7E3AE500E7C0C8 /* Sounds */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6EA4CF1A1F7E3AE500E7C0C8 /* Artwork */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4CF1B1F7E3AE500E7C0C8 /* sprites.atlas */,
+			);
+			path = Artwork;
+			sourceTree = "<group>";
+		};
+		6EA4CF1F1F7E3AE500E7C0C8 /* SKTUtils */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4CF201F7E3AE500E7C0C8 /* CGFloat+Extensions.swift */,
+				6EA4CF211F7E3AE500E7C0C8 /* CGPoint+Extensions.swift */,
+				6EA4CF221F7E3AE500E7C0C8 /* CGVector+Extensions.swift */,
+				6EA4CF231F7E3AE500E7C0C8 /* Int+Extensions.swift */,
+				6EA4CF241F7E3AE500E7C0C8 /* SKAction+Extensions.swift */,
+				6EA4CF251F7E3AE500E7C0C8 /* SKAction+SpecialEffects.swift */,
+				6EA4CF261F7E3AE500E7C0C8 /* SKColor+Extensions.swift */,
+				6EA4CF271F7E3AE500E7C0C8 /* SKNode+Extensions.swift */,
+				6EA4CF281F7E3AE500E7C0C8 /* SKTAudio.swift */,
+				6EA4CF291F7E3AE500E7C0C8 /* SKTEffects.swift */,
+				6EA4CF2A1F7E3AE500E7C0C8 /* SKTTimingFunctions.swift */,
+				6EA4CF2B1F7E3AE500E7C0C8 /* Vector3.swift */,
+			);
+			path = SKTUtils;
+			sourceTree = "<group>";
+		};
+		6EA4CF2C1F7E3AE500E7C0C8 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				6EA4CF2D1F7E3AE500E7C0C8 /* coin.wav */,
+				6EA4CF2E1F7E3AE500E7C0C8 /* ding.wav */,
+				6EA4CF2F1F7E3AE500E7C0C8 /* falling.wav */,
+				6EA4CF301F7E3AE500E7C0C8 /* flapping.wav */,
+				6EA4CF311F7E3AE500E7C0C8 /* hitGround.wav */,
+				6EA4CF321F7E3AE500E7C0C8 /* pop.wav */,
+				6EA4CF331F7E3AE500E7C0C8 /* whack.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +218,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA4CF451F7E3B4100E7C0C8 /* hitGround.wav in Resources */,
+				6EA4CF421F7E3B4100E7C0C8 /* ding.wav in Resources */,
+				6EA4CF461F7E3B4100E7C0C8 /* pop.wav in Resources */,
+				6EA4CF441F7E3B4100E7C0C8 /* flapping.wav in Resources */,
+				6EA4CF431F7E3B4100E7C0C8 /* falling.wav in Resources */,
+				6EA4CF411F7E3B4100E7C0C8 /* coin.wav in Resources */,
+				6EA4CF471F7E3B4100E7C0C8 /* whack.wav in Resources */,
 				6E48B3961F7B725D002BE7BA /* Main.storyboard in Resources */,
 				6E48B3981F7B725D002BE7BA /* Assets.xcassets in Resources */,
+				6EA4CF341F7E3B2D00E7C0C8 /* sprites.atlas in Resources */,
 				6E48B39B1F7B725D002BE7BA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +240,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E48B3911F7B725D002BE7BA /* GameScene.swift in Sources */,
+				6EA4CF361F7E3B3900E7C0C8 /* CGPoint+Extensions.swift in Sources */,
+				6EA4CF3F1F7E3B3900E7C0C8 /* SKTTimingFunctions.swift in Sources */,
+				6EA4CF3E1F7E3B3900E7C0C8 /* SKTEffects.swift in Sources */,
+				6EA4CF3A1F7E3B3900E7C0C8 /* SKAction+SpecialEffects.swift in Sources */,
+				6EA4CF371F7E3B3900E7C0C8 /* CGVector+Extensions.swift in Sources */,
+				6EA4CF391F7E3B3900E7C0C8 /* SKAction+Extensions.swift in Sources */,
+				6EA4CF3B1F7E3B3900E7C0C8 /* SKColor+Extensions.swift in Sources */,
 				6E48B3931F7B725D002BE7BA /* GameViewController.swift in Sources */,
+				6EA4CF381F7E3B3900E7C0C8 /* Int+Extensions.swift in Sources */,
+				6EA4CF3C1F7E3B3900E7C0C8 /* SKNode+Extensions.swift in Sources */,
+				6EA4CF3D1F7E3B3900E7C0C8 /* SKTAudio.swift in Sources */,
+				6EA4CF351F7E3B3900E7C0C8 /* CGFloat+Extensions.swift in Sources */,
+				6EA4CF401F7E3B3900E7C0C8 /* Vector3.swift in Sources */,
 				6E48B38B1F7B725D002BE7BA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
